@@ -26,13 +26,6 @@ public class UserServiceTest {
         userService.listUsers();
     }
 
-    @Test
-    public void test() {
-
-        updateUser();
-        addUser();
-        listUser();
-    }
 
     @Test
     public void updateUser() {

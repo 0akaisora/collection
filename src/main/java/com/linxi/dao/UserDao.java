@@ -19,6 +19,9 @@ public class UserDao {
     private UserDao() {
         if(users == null){
             users = new ArrayList<>();
+            users.add(new User(1, "admin", "123456", "admin", "", ""));
+            users.add(new User(2, "user1", "123456", "admin", "", ""));
+            users.add(new User(3, "user2", "123456", "admin", "", ""));
         }
     }
 
